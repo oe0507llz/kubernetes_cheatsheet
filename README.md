@@ -11,5 +11,6 @@ helm install --name my-release stable/spark
 kubectl get pods
 kubectl exec -it my-release-master-74c54fc456-45lm6 /bin/bash
 spark-submit --class org.apache.spark.examples.SparkPi --master spark://my-release-master:7077 spark-example.jar 10
+sh teardown.sh
 ```
 https://github.com/helm/charts/tree/master/stable/spark
