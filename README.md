@@ -14,3 +14,5 @@ spark-submit --class org.apache.spark.examples.SparkPi --master spark://my-relea
 sh teardown.sh
 ```
 https://github.com/helm/charts/tree/master/stable/spark
+
+#### Kubernetes Tips: Using a ServiceAccount: https://medium.com/better-programming/k8s-tips-using-a-serviceaccount-801c433d0023
