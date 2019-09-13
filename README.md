@@ -16,3 +16,13 @@ sh teardown.sh
 https://github.com/helm/charts/tree/master/stable/spark
 
 #### Kubernetes Tips: Using a ServiceAccount: https://medium.com/better-programming/k8s-tips-using-a-serviceaccount-801c433d0023
+
+#### The Kubernetes API call is coming from inside the cluster: https://medium.com/@pczarkowski/the-kubernetes-api-call-is-coming-from-inside-the-cluster-f1a115bd2066
+```
+/ # K8S=https://$KUBERNETES_SERVICE_HOST:$KUBERNETES_SERVICE_PORT
+/ # TOKEN=$(cat /var/run/secrets/kubernetes.io/serviceaccount/token)
+/ # CACERT=/var/run/secrets/kubernetes.io/serviceaccount/ca.crt
+/ # NAMESPACE=$(cat /var/run/secrets/kubernetes.io/serviceaccount/namespace)
+/ # curl -H "Authorization: Bearer $TOKEN" --cacert $CACERT $K8S/healthz
+ok
+```
