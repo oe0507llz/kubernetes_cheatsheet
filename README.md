@@ -26,3 +26,4 @@ https://github.com/helm/charts/tree/master/stable/spark
 / # curl -H "Authorization: Bearer $TOKEN" --cacert $CACERT $K8S/healthz
 ok
 ```
+#### Effective RBAC - Jordan Liggitt, Red Hat: https://www.youtube.com/watch?v=Nw1ymxcLIDI
