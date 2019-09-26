@@ -35,3 +35,5 @@ ok
 #### SparkOperator on GKE: https://www.youtube.com/watch?v=ipejoF0okDY
 
 #### Apache Spark on K8s - Tencent's Best Practice: https://www.youtube.com/watch?v=SqKlPiv_RRg
+
+#### Spark on Kubernetes and related infrastructure at Lyft: https://www.youtube.com/watch?v=PPtrY_XxYBE
