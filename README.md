@@ -27,3 +27,11 @@ https://github.com/helm/charts/tree/master/stable/spark
 ok
 ```
 #### Effective RBAC - Jordan Liggitt, Red Hat: https://www.youtube.com/watch?v=Nw1ymxcLIDI
+
+#### Apache Spark on Kubernetes Clusters (Anirudh Ramanathan & Sean Schter): https://www.youtube.com/watch?v=Lj-SnDqk2Ks
+
+#### Running Spark on Kubernetes: https://spark.apache.org/docs/latest/running-on-kubernetes.html
+
+#### SparkOperator on GKE: https://www.youtube.com/watch?v=ipejoF0okDY
+
+#### Apache Spark on K8s - Tencent's Best Practice: https://www.youtube.com/watch?v=SqKlPiv_RRg
