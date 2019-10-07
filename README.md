@@ -37,3 +37,8 @@ ok
 #### Apache Spark on K8s - Tencent's Best Practice: https://www.youtube.com/watch?v=SqKlPiv_RRg
 
 #### Spark on Kubernetes and related infrastructure at Lyft: https://www.youtube.com/watch?v=PPtrY_XxYBE
+
+#### Horizontal Pod Autoscaler Walkthrough with PHP example: https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/
+
+#### HPA using Metrics Server: https://www.youtube.com/watch?v=uxuyPru3_Lc
+
