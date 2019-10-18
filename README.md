@@ -42,7 +42,7 @@ ok
 
 #### HPA using Metrics Server: https://www.youtube.com/watch?v=uxuyPru3_Lc
 
-#### Force Delete StatefulSet Pods
+#### Force Delete StatefulSet Pods: https://kubernetes.io/docs/tasks/run-application/force-delete-stateful-set-pod/
 ```
 kubectl delete pods <pod>
 kubectl delete pods <pod> --grace-period=0 --force
