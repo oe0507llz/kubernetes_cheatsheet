@@ -42,3 +42,9 @@ ok
 
 #### HPA using Metrics Server: https://www.youtube.com/watch?v=uxuyPru3_Lc
 
+#### Force Delete StatefulSet Pods
+```
+kubectl delete pods <pod>
+kubectl delete pods <pod> --grace-period=0 --force
+```
+
