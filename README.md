@@ -47,4 +47,4 @@ ok
 kubectl delete pods <pod>
 kubectl delete pods <pod> --grace-period=0 --force
 ```
-
+#### How can one create a multi-container application in helm charts: https://stackoverflow.com/questions/52634192/how-can-one-create-a-multi-container-application-in-helm-charts
