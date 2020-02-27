@@ -50,3 +50,7 @@ kubectl delete pods <pod> --grace-period=0 --force
 #### How can one create a multi-container application in helm charts: https://stackoverflow.com/questions/52634192/how-can-one-create-a-multi-container-application-in-helm-charts
 
 #### Taints and tolerations, pod and node affinities demystified: https://banzaicloud.com/blog/k8s-taints-tolerations-affinities/
+
+#### Taints and tolerations
+https://www.youtube.com/watch?v=mo2UrkjA7FE <br>
+https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
