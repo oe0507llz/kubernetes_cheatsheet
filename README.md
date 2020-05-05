@@ -54,3 +54,9 @@ kubectl delete pods <pod> --grace-period=0 --force
 #### Taints and tolerations
 https://www.youtube.com/watch?v=mo2UrkjA7FE <br>
 https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
+
+#### Kubernetes Ingress Explained Completely For Beginners
+https://www.youtube.com/watch?v=GhZi4DxaxxE
+
+#### Using NGINX as a Kubernetes Ingress Controller
+https://www.youtube.com/watch?v=AXZr2OC8Unc
